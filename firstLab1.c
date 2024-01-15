@@ -8,7 +8,7 @@ int main() {
     int randomArray[ARRAY_SIZE];
     srand(time(NULL));
 
-    // Generate a random 1-D array
+    
     for (int i = 0; i < ARRAY_SIZE; i++) {
         randomArray[i] = rand() % 1000 + 1;  // Random values between 1 and 1000
     }
